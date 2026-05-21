@@ -128,6 +128,6 @@ Contributions, feature requests, and optimizations are highly welcome! If you ru
 4) Open a pull request against the main branch.
 
 License
-Distributed under the MIT License. See LICENSE for more details.
+Distributed under the MIT License. See [MIT](LICENSE) for more details.
 
 Copyright (c) 2026 Milton Ngala
