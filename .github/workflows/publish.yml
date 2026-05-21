@@ -43,7 +43,7 @@ jobs:
           dotnet pack \
             --configuration Release \
             -o ./nupkg \
-            /p:Version=1.0.2
+            /p:Version=1.0.4
 
       - name: Publish
         # Updated path directly to the nupkg folder for safety
