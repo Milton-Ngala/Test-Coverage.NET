@@ -10,7 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
@@ -40,14 +39,17 @@ jobs:
         run: dotnet test --configuration Release --no-build
 
       - name: Pack
+        # Added -o ./nupkg to cleanly bundle the package into one predictable spot
         run: |
           dotnet pack \
             --configuration Release \
+            -o ./nupkg \
             /p:Version=${{ steps.gitversion.outputs.semVer }}
 
       - name: Publish
+        # Updated path directly to the nupkg folder for safety
         run: |
-          dotnet nuget push "**/*.nupkg" \
+          dotnet nuget push "./nupkg/*.nupkg" \
             --api-key ${{ secrets.NUGET_API_KEY }} \
             --source https://api.nuget.org/v3/index.json \
             --skip-duplicate
