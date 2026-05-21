@@ -43,7 +43,7 @@ jobs:
           dotnet pack \
             --configuration Release \
             -o ./nupkg \
-            /p:Version=${{ steps.gitversion.outputs.semVer }}
+            /p:Version=1.0.2
 
       - name: Publish
         # Updated path directly to the nupkg folder for safety
