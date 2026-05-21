@@ -82,7 +82,7 @@ Enforce Quality Thresholds: Run coverage testing and drop a failing status code 
 ```Bash
   test-coverage collect . --threshold 80
   ```
-CI/CD Integration
+### CI/CD Integration
 This utility functions natively inside continuous integration automation runners. Below is a structured setup pattern for GitHub Actions workflows:
 
 ```YAML
@@ -127,7 +127,7 @@ Contributions, feature requests, and optimizations are highly welcome! If you ru
 3) Commit your changes with clear, descriptive testing data.
 4) Open a pull request against the main branch.
 
-License
+### License
 Distributed under the MIT License. See [MIT](LICENSE) for more details.
 
 Copyright (c) 2026 Milton Ngala
