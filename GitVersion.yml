@@ -1,0 +1,11 @@
+mode: ContinuousDeployment
+
+branches:
+  main:
+    increment: Patch
+
+  develop:
+    increment: Minor
+
+  feature:
+    increment: Minor
