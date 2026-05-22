@@ -1,5 +1,3 @@
-<div align="center">
-
 # Test-Coverage.NET
 
 ### Modern CLI Utility for .NET Code Coverage and Reporting
@@ -9,9 +7,6 @@
 [![NuGet](https://img.shields.io/nuget/v/Test-Coverage.Net.svg)](https://www.nuget.org/packages/Test-Coverage.Net)
 
 **[Report a Bug](https://github.com/Milton-Ngala/Test-Coverage.NET/issues)** · **[Request a Feature](https://github.com/Milton-Ngala/Test-Coverage.NET/issues)**
-
-</div>
-
 ---
 
 ## Overview
@@ -128,6 +123,6 @@ Contributions, feature requests, and optimizations are highly welcome! If you ru
 4) Open a pull request against the main branch.
 
 ### License
-Distributed under the MIT License. See [MIT](LICENSE) for more details.
+Distributed under the MIT License. See LICENSE for more details.
 
 Copyright (c) 2026 Milton Ngala
